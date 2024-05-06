@@ -1,168 +1,167 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
 
 body {
-	margin: 0;
-	background: #222;
-	font-family: 'Work Sans', sans-serif;
-	font-weight: 800;
-	color: #fff; /* Change text color to white */
+    margin: 0;
+    background: #222;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+    color: #fff;
 }
 
 .container {
-	width: 80%;
-	margin: 0 auto;
+    width: 80%;
+    margin: 0 auto;
 }
 
 header {
-  background: #55d6aa; /* Change header background color to a vibrant green */
+    background: #55d6aa;
+    padding: 20px 0;
 }
 
 header::after {
-  content: '';
-  display: table;
-  clear: both;
+    content: '';
+    display: table;
+    clear: both;
 }
 
 .logo {
-  float: left;
-  padding: 10px 0;
+    float: left;
+    padding: 10px 0;
 }
 
 nav {
-  float: right;
+    float: right;
 }
 
 nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 nav li {
-  display: inline-block;
-  margin-left: 70px;
-  padding-top: 23px;
-  position: relative;
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+    position: relative;
 }
 
 nav a {
-  color: #fff; /* Change link color to white */
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
 }
 
 nav a:hover {
-  color: #000;
+    color: #000;
 }
 
 nav a::before {
-  content: '';
-  display: block;
-  height: 5px;
-  background-color: #fff; /* Change link hover underline color to white */
-  position: absolute;
-  top: 0;
-  width: 0%;
-  transition: all ease-in-out 250ms;
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 250ms;
 }
 
 nav a:hover::before {
-  width: 100%;
+    width: 100%;
 }
 
 h1 {
-  font-size: 50px;
-  color: #ff7f00; /* Change h1 color to orange */
+    font-size: 50px;
+    color: #ff7f00;
 }
 
 h2 {
-  font-size: 40px;
-  color: #ff00ff; /* Change h2 color to pink */
+    font-size: 40px;
+    color: #ff00ff;
 }
 
 p {
-  color: #aaff00; /* Change paragraph color to bright green */
+    color: #aaff00;
 }
 
 .orange-highlight {
-  color: #ff4500; /* Change orange-highlight color to dark orange */
+    color: #ff4500;
 }
 
 .half-width {
-  width: 40%;
-  float: left;
-  margin-left: 5%;
-  padding-left: 1%;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-left: 5%;
 }
 
 .half-width img {
-  width: 100%;
+    width: 100%;
 }
 
 .top-banner {
-  background-image: url("images/top-banner.png");
-  background-repeat: no-repeat;
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
 }
 
 .section {
-  height: 500px;
-  padding-bottom: 150px;
+    padding: 50px 0;
 }
 
 .link-button {
-  text-decoration: none;
-  background-image: linear-gradient(45deg, #ff6347, #ffa500); /* Change button gradient to red-orange */
-  padding: 10px 20px;
-  border-radius: 5px;
-  color: #fff;
-  font-weight: 700;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #ff6347, #ffa500);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
 }
 
 .dream-area {
-  background-image: url("images/dream-bg.png");
-  background-repeat: no-repeat;
-  background-position: right;
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .single-experience {
-  box-shadow: 10px 10px 40px grey;
-  border-radius: 5px;
-  height: 80%;
-  background-color: #00ffff; /* Change single-experience background color to cyan */
+    background-color: #00ffff;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 }
 
 .experience-area {
-  background-image: url(images/exp-bg.png);
-  background-repeat: no-repeat;
-  background-position: left;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
 #full-stack {
-  border-left: 7px solid;
-  border-image: linear-gradient(180deg, #ff6347, #ffa500); /* Change border gradient to red-orange */
-  border-image-slice: 1;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #ff6347, #ffa500);
+    border-image-slice: 1;
 }
 
 #baby-web {
-  border-left: 7px solid;
-  border-image: linear-gradient(180deg, #0000ff, #00ffff); /* Change border gradient to blue-cyan */
-  border-image-slice: 1;
-}
-
-.previous {
-  text-align: left;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #0000ff, #00ffff);
+    border-image-slice: 1;
 }
 
 .gallery {
-  width: 40%;
-  margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.games {
-  width: 70%;
-  margin-left: 5%;
-  padding-left: 3%;
-  margin-top: 20%;
-  position: sticky;
+.gallery img {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+}
+
+.desc {
+    text-align: center;
 }
