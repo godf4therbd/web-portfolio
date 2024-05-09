@@ -15,13 +15,13 @@ body {
 }
 
 header {
-    background-color: #ffb6c1; /* Soft pink */
+    background-color: #ff8c00; /* Change to a different color */
     padding: 20px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 28px; /* Increase font size */
     font-weight: bold;
     color: #fff;
 }
@@ -32,19 +32,19 @@ nav ul {
 
 nav li {
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 30px; /* Increase spacing between nav items */
 }
 
 nav a {
     text-decoration: none;
     color: #fff;
-    font-size: 16px;
+    font-size: 18px; /* Increase font size */
     transition: color 0.3s ease;
 }
 
-nav a:hover {
-    color: #000;
-}
+    nav a:hover {
+        color: #000;
+    }
 
 .top-banner, .dream-area, .experience-area, .hobby-area {
     padding: 50px 0;
@@ -52,66 +52,50 @@ nav a:hover {
 
 .half-width {
     width: 100%;
-    max-width: 600px;
+    max-width: 800px; /* Increase max-width */
     margin: 0 auto;
     padding: 0 20px;
 }
 
-.half-width img {
-    width: 100%;
-    height: auto;
-}
+    .half-width img {
+        width: 100%;
+        height: auto;
+    }
 
 .orange-highlight {
-    color: #ff7f50; /* Coral orange */
+    color: #ff4500; /* Change to a different shade of orange */
 }
 
 .link-button {
     display: inline-block;
-    padding: 10px 20px;
-    border-radius: 30px;
-    background-color: #87ceeb; /* Sky blue */
+    padding: 12px 24px; /* Increase padding */
+    border-radius: 50px; /* Make buttons more rounded */
+    background-color: #4682b4; /* Change button color */
     color: #fff;
     text-decoration: none;
     font-weight: bold;
     transition: background-color 0.3s ease;
 }
 
-.link-button:hover {
-    background-color: #4682b4; /* Steel blue */
-}
+    .link-button:hover {
+        background-color: #87ceeb; /* Change button hover color */
+    }
 
 .single-experience {
-    background-color: #fff;
-    padding: 30px;
-    margin-bottom: 30px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+    background-color
+    /* Add this style for the navigation button */
+    .nav-button
+
+{
+    background-color: #4682b4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px; /* Add margin to separate it from other links */
+    cursor: pointer;
 }
 
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.gallery img {
-    width: calc(33.33% - 20px);
-    margin-bottom: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.desc {
-    text-align: center;
-    margin-top: 10px;
-}
-
-.desc h3 {
-    font-size: 18px;
-    margin-bottom: 5px;
-}
-
-.desc p {
-    font-size: 14px;
+.nav-button:hover {
+    background-color: #87ceeb;
 }
